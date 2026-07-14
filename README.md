@@ -63,19 +63,6 @@ export HUIKEYUN_CUSTOMER_ID="你的CustomerId"
 
 ---
 
-## 项目清单
-
-在 `references/config.yaml` 的 `projects` 段维护可查询的商场 / 项目：
-
-```yaml
-projects:
-  - { id: "ADE48DC2665CF6FBD1A2043DC49FC95F", name: "陆悦天地（陆家嘴集团）" }
-```
-
-新增项目时，把 `id`（场所编码 siteKey）和 `name` 加进列表即可。
-
----
-
 ## 用法
 
 ### 对话中直接问（推荐）
