@@ -7,13 +7,13 @@
   python query_traffic.py --site-key ADE48DC... --start "2026-07-01 00:00:00" --endpoint traffic
 
   # 用项目名查询
-  python query_traffic.py --project "张江陆悦天地" --start "2026-07-01 00:00:00"
+  python query_traffic.py --project "我的项目" --start "2026-07-01 00:00:00"
 
   # 过店客流历史数据（按日期范围，天粒度，最多 30 天）
-  python query_traffic.py --project "张江陆悦天地" --start 2026-07-01 --end 2026-07-30 --endpoint through_traffic
+  python query_traffic.py --project "我的项目" --start 2026-07-01 --end 2026-07-30 --endpoint through_traffic
 
   # 小时粒度
-  python query_traffic.py --project "张江陆悦天地" --start "2026-07-07 00:00:00" \
+  python query_traffic.py --project "我的项目" --start "2026-07-07 00:00:00" \
       --granularity hour --endpoint traffic
 
   # 查询场所列表（获取 siteKey/siteName）

@@ -69,7 +69,7 @@ export HUIKEYUN_CUSTOMER_ID="你的CustomerId"
 
 直接对 WorkBuddy 说，无需自己跑命令：
 
-- "今天陆悦天地客流多少"
+- "今天客流多少"
 - "华为昨天的过店客流"
 - "全场游逛时长"
 - "导出一个客流 Excel 报表"
@@ -79,7 +79,7 @@ export HUIKEYUN_CUSTOMER_ID="你的CustomerId"
 ```bash
 # 进出客流（按日期范围，天粒度）
 python scripts/query_traffic.py --endpoint traffic_range \
-    --project "陆悦天地（陆家嘴集团）" --start 2026-07-07 --end 2026-07-13
+    --project "你的项目名" --start 2026-07-07 --end 2026-07-13
 
 # 过店客流（小时粒度）
 python scripts/query_traffic.py --endpoint through_traffic \
